@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&family=Saira+Condensed:wght@300;400;500;600;700;800&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "PT Sans Caption", sans-serif;
+}
+.interface {
+  min-height: 100vh;
+  background-color: #f7ecde;
+}
+.interface h1 {
+  font-size: 50px;
+  font-family: "Pacifico", cursive;
+  color: #352e28;
+  z-index: 1;
+}
+.interface h1::before {
+  content: "";
+  width: 100%;
+  height: 25%;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  background-color: #fec260;
+  transition: 350ms;
+  z-index: -1;
+}
+
+.interface .bookmark-body {
+  border-top: 2px dotted #352e28;
+  border-bottom: 2px dotted #352e28;
+}
+.interface .bookmark-body h2 {
+  font-family: "Righteous", cursive;
+  font-size: 25px;
+  text-align: center;
+  background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.box-info {
+  background-color: #0007;
+}
+
+.box-conent {
+  width: 500px;
+  z-index: 10;
+}
+
+.box-conent p {
+  font-family: "Bree Serif", serif;
+  font-size: 21px;
+  line-height: 1.3;
+  color: #352e28;
+}
+
+.rules li {
+  font-size: 18px;
+  padding-top: 10px;
+}
+.rules i {
+  color: #bb4120;
+}
+
+.circles span {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.circles span:nth-child(1) {
+  background-color: #f15f5d;
+}
+.circles span:nth-child(2) {
+  background-color: #febe2e;
+}
+.circles span:nth-child(3) {
+  background-color: #4db748;
+}
+
+.logo {
+  width: 40px;
+}
